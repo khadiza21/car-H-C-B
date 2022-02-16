@@ -7,23 +7,23 @@ button {
   background-color: #a90005;
   /* background-color: #da0103  ; */
 }
-.extra-nav{
-    background-color: rgb(236, 236, 236);
+.extra-nav {
+  background-color: rgb(236, 236, 236);
 }
-.extra-nav li{
- list-style: none;
+.extra-nav li {
+  list-style: none;
 }
-.extra-nav a,span{
-    text-decoration: none;
-   color: black;
-   font-size: 16px;
-   font-weight: 600;
+.extra-nav a,
+span {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
 }
-.extra-nav i{
-     color: #a90005;
-     font-size: 19px;
-     font-weight: bold;
-     
+.extra-nav i {
+  color: #a90005;
+  font-size: 19px;
+  font-weight: bold;
 }
 /* <!-- button #ab7442 #ab7442   #ffffff #  #454545
  --> */
@@ -31,10 +31,8 @@ button {
 .list-style {
   list-style: square;
 }
-.list-style li{
-    list-style: square inside none;
-    
-
+.list-style li {
+  list-style: square inside none;
 }
 /* .container {
   position: relative;
@@ -62,14 +60,19 @@ textarea:focus,
 .rew {
   font-weight: 600;
 }
-.al{
-    color:gray;
+.al {
+  color: gray;
 }
-.bl{
-    font-size: 50px;
-    
-   color: #a90005;
-    /* justify-content: space-between; */
+.bl {
+  font-size: 50px;
+
+  color: #a90005;
+  /* justify-content: space-between; */
 }
 
-
+@media only screen and (min-width: 280px) and (max-width: 800px) {
+  .bk input {
+    padding: 0%;
+    width: 100%;
+  }
+}
